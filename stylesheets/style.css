@@ -1,3 +1,165 @@
-h1 {
-    color:red;
+
+
+body {
+    background-color: #faeee7;
+    font-family: Arial, sans-serif;
+    color: #594a4e;
+    margin: 0;
+    padding-top: 50px;
+}
+
+
+h1, h2, h3 {
+    color: #d8cfd1;
+}
+
+
+p {
+    color: #594a4e;
+}
+
+
+a {
+    color: #ff8ba7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+nav {
+    background-color: #33272a;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    padding: 5px 10px;
+    border: 1px solid #ff8ba7;
+    border-radius: 5px;
+    background-color: #ff8ba7;
+}
+
+nav ul li a {
+    color: #33272a;
+    padding: 5px 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+nav ul li:hover {
+    background-color: #ffc6c7;
+}
+
+nav ul li a:hover {
+    background-color: #ffc6c7;
+}
+
+
+header {
+    position: relative;
+    height: 400px; 
+    color: white;
+    text-align: center;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://lh4.googleusercontent.com/proxy/BEDfYkT1RH2pXNdGuQ1QPcH5egHoUZGSjnX7S8CBVW-VsTq6w8Q8faWWlizQVw6y1V5RGNZdRpr0Lz8epaZvc2QMlF7l7m7B961mI-ZlfigIGDUkSMuhUND4erg_XYk'); 
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.header-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.header-content h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5em;
+}
+
+.header-content .title {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #ff8ba7;
+}
+
+.header-buttons {
+    margin-top: 20px;
+}
+
+.header-buttons .hire-me, .header-buttons .download-cv {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #ff8ba7;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.header-buttons .hire-me:hover, .header-buttons .download-cv:hover {
+    background-color: #ffc6c7;
+}
+
+
+section {
+    margin: 40px 20px;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    background-color: #33272a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

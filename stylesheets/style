@@ -1,11 +1,4 @@
-* {
-    font-family: Arial, sans-serif;
-    color: aqua;
-    }
 
-.my-class {
-    font-family: Times New Roman, serif;
-    }
 
 h1 {
      font-family: Georgia, serif;
