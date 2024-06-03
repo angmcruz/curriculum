@@ -1,13 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
     background-color: #faeee7;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif;
     color: #594a4e;
     margin: 0;
     padding-top: 50px;
 }
 
 h1, h2, h3 {
-    color: #d8cfd1;
+    font-family: 'Noto Sans';
+       color: #b67b88;
 }
 
 p {
@@ -90,12 +95,21 @@ header {
     transform: translateY(-50%);
 }
 
+.img-content{
+    position: relative;
+    margin-bottom: -75px;
+    z-index: 2;
+
+}
+
 .profile-picture {
     border-radius: 50%;
     border: 5px solid #ffffff;
     width: 150px;
     height: 150px;
     object-fit: cover;
+    position: relative;
+    z-index: 3;
 }
 
 .header-content h1 {
@@ -113,7 +127,7 @@ header {
     margin-top: 20px;
 }
 
-.header-buttons .hire-me, .header-buttons .download-cv {
+.header-buttons .cont_bt, .header-buttons .github_bt {
     padding: 10px 20px;
     margin: 0 10px;
     background-color: #ff8ba7;
@@ -123,8 +137,20 @@ header {
     cursor: pointer;
 }
 
-.header-buttons .hire-me:hover, .header-buttons .download-cv:hover {
+.header-buttons .cont_bt:hover, .header-buttons .github_bt:hover {
     background-color: #ffc6c7;
+}
+
+.white-container {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    
 }
 
 section {
