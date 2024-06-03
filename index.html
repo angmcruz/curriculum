@@ -1,41 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum</title>
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
+
 <body>
     <nav>
         <ul>
             <li><a href="#info">Informacion Personal</a></li>
+            <li><a href="#edu">Educacion</a></li>
             <li><a href="#exp">Experiencia Laboral</a></li>
             <li><a href="#ref">Habilidades</a></li>
             <li><a href="#hab">Referencias Personales</a></li>
             <li><a href="#cont">Contacto</a></li>
         </ul>
     </nav>
-    
+
     <header>
         <div class="background-image"></div>
         <div class="header-content">
             <div class="img-content">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqa_FPjzLpGHVGHxFWkOdqytzDfsjYMJxo8dqPr50xNQ&s" alt="Profile Picture" class="profile-picture">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqa_FPjzLpGHVGHxFWkOdqytzDfsjYMJxo8dqPr50xNQ&s"
+                    alt="Profile Picture" class="profile-picture">
             </div>
             <div class="white-container">
                 <h1>Angie Melissa Cruz Naranjo</h1>
                 <p class="title">Web Designer & Programmer</p>
-                <p class="info"> Lorem ipsum dolor sit amet. Ab obcaecati voluptatem sit dolorum consequatur
-                     eum eveniet voluptas aut distinctio commodi! Non culpa ullam et voluptatem facilis aut quia corporis ea minus praesentium. Ut aliquid</p>
+                <p class="info"> PATITO ENOJADO!:Lorem ipsum dolor sit amet. Ab obcaecati voluptatem sit dolorum
+                    consequatur
+                    eum eveniet voluptas aut distinctio commodi! Non culpa ullam et voluptatem facilis aut quia corporis
+                    ea minus praesentium. Ut aliquid</p>
                 <div class="header-buttons">
-                <button class="cont_bt" onclick="location.href='#cont'">Contactame</button>
-                <button class="github_bt" onclick="location.href='https://github.com/angmcruz/MelissaCruz'">Pagina de Github</button>
+                    <button class="cont_bt" onclick="location.href='#cont'">Contactame</button>
+                    <button class="github_bt" onclick="location.href='https://github.com/angmcruz/MelissaCruz'">Pagina
+                        de Github</button>
                 </div>
             </div>
         </div>
     </header>
-    
+
+
+    <section>
+        <h3 id="hab">HABILIDADES</h3>
+        <div class="hab-container">
+            <div class="habilidad">
+                <div class="picture-container">
+                    <img src="https://i.pinimg.com/originals/82/a2/18/82a2188c985ce75402ae44fc43fe7e5e.png" alt="Python"
+                        class="picture python-picture" />
+                </div>
+                <h4>Python</h4>
+                <div class="progress-bar">
+                    <div class="progress python-progress"></div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <div class="picture-container">
+                    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png"
+                        alt="Java" class="picture java-picture" />
+                </div>
+                <h4>Java</h4>
+                <div class="progress-bar">
+                    <div class="progress java-progress"></div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <div class="picture-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Foxpro-icon.png" alt="Visual Fox"
+                        class="picture vfp-picture" />
+                </div>
+                <h4>Visual Fox</h4>
+                <div class="progress-bar">
+                    <div class="progress vfp-progress"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hab-container">
+            <div class="habilidad">
+                <div class="picture-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/de/thumb/8/8c/Microsoft_SQL_Server_Logo.svg/2524px-Microsoft_SQL_Server_Logo.svg.png"
+                        alt="SqlServer" class="picture sql-picture" />
+                </div>
+                <h4>SQL Server</h4>
+                <div class="progress-bar">
+                    <div class="progress sql-progress"></div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <div class="picture-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+                        alt="HTML Picture" class="picture html-picture" />
+                </div>
+                <h4>HTML</h4>
+                <div class="progress-bar">
+                    <div class="progress html-progress"></div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <div class="picture-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"
+                        alt="CSS Picture" class="picture css-picture" />
+                </div>
+                <h4>CSS</h4>
+                <div class="progress-bar">
+                    <div class="progress css-progress"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section>
         <h3 id="info">INFORMACION PERSONAL</h3>
         <ul>
@@ -46,17 +122,20 @@
     </section>
 
     <section>
-        <h3 id="info">EDUCACION</h3>
+        <h3 id="edu">EDUCACION</h3>
         <ul>
             <li>Colegio</li>
-           
+
         </ul>
         <ul>
             <li>Universidad</li>
-           
+
         </ul>
     </section>
-
+    <section>
+        <h3 id="exp">EXPERIENCIA LABORAL</h3>
+        
+    </section>
     <section>
         <h3 id="exp">EXPERIENCIA LABORAL</h3>
         <ol>
@@ -68,7 +147,10 @@
                     <li>Elaboracion de Flujo de Caja</li>
                     <li>Facturacion</li>
                     <li>Ubicacion: </li>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8011624229684!2d-78.47765375!3d-0.16803259999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a9e5c1b6aff%3A0xa3faf76416d912c9!2s6%20De%20Diciembre%2C%20170102%20Quito!5e0!3m2!1ses!2sec!4v1716230843704!5m2!1ses!2sec" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8011624229684!2d-78.47765375!3d-0.16803259999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59a9e5c1b6aff%3A0xa3faf76416d912c9!2s6%20De%20Diciembre%2C%20170102%20Quito!5e0!3m2!1ses!2sec!4v1716230843704!5m2!1ses!2sec"
+                        width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </ul>
             </li>
             <li>INTERDIESEL
@@ -79,7 +161,10 @@
                     <li>Ingreso de Mercaderia</li>
                     <li>Facturacion</li>
                     <li>Ubicacion: </li>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127584.89376715731!2d-79.95493214999998!3d-2.142983599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6e7af9fc9f55%3A0x326fb5cad134bb58!2sImportadora%20MPM%20S.A.!5e0!3m2!1ses-419!2sec!4v1716230973121!5m2!1ses-419!2sec" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127584.89376715731!2d-79.95493214999998!3d-2.142983599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6e7af9fc9f55%3A0x326fb5cad134bb58!2sImportadora%20MPM%20S.A.!5e0!3m2!1ses-419!2sec!4v1716230973121!5m2!1ses-419!2sec"
+                        width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </ul>
             </li>
             <li>CARFID
@@ -89,20 +174,16 @@
                     <li>Ingreso de Importaciones</li>
                     <li>Facturacion</li>
                     <li>Ubicacion: </li>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.8894892194294!2d-79.9001962!3d-2.1955069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6e72e3a83f29%3A0xa05bf494b54901c7!2sAyacucho%2C%20Guayaquil!5e0!3m2!1ses-419!2sec!4v1716234186897!5m2!1ses-419!2sec" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.8894892194294!2d-79.9001962!3d-2.1955069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6e72e3a83f29%3A0xa05bf494b54901c7!2sAyacucho%2C%20Guayaquil!5e0!3m2!1ses-419!2sec!4v1716234186897!5m2!1ses-419!2sec"
+                        width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </ul>
             </li>
         </ol>
     </section>
 
-    <section>
-        <h3 id="hab">HABILIDADES</h3>
-        <ul>
-            <li>Bailarina de JUST DANCE 2022: Puesto #4 NIVEL MUNDIAL
-                
-            </li>
-        </ul>
-    </section>
+
 
     <section>
         <h3 id="ref">REFERENCIAS PERSONALES</h3>
@@ -114,22 +195,24 @@
         <form id="forms">
             <label for="nombres">Nombres:</label>
             <input type="text" id="nombres" name="nombres" required="required"> <br>
-    
+
             <label for="apellidos">Apellidos:</label>
             <input type="text" id="apellidos" name="apellidos" required="required"> <br>
-    
+
             <label for="mail">Correo Electrónico:</label>
             <input type="email" id="mail" name="mail" required="required"> <br>
-    
+
             <label for="celular">Número de Contacto:</label>
             <input type="tel" id="celular" name="celular" required="required"> <br>
-    
+
             <input type="submit" value="ENVIAR">
         </form>
     </section>
+
 
     <footer>
         <p>&copy; 2024 Angie Melissa Cruz Naranjo. All rights reserved.</p>
     </footer>
 </body>
+
 </html>

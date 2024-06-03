@@ -8,11 +8,14 @@ body {
     color: #594a4e;
     margin: 0;
     padding-top: 50px;
+    text-align: center;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Noto Sans';
-       color: #b67b88;
+    color: #b67b88;
 }
 
 p {
@@ -72,7 +75,7 @@ nav ul li a:hover {
 
 header {
     position: relative;
-    height: 400px; 
+    height: 400px;
     color: white;
     text-align: center;
 }
@@ -83,7 +86,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('https://lh4.googleusercontent.com/proxy/BEDfYkT1RH2pXNdGuQ1QPcH5egHoUZGSjnX7S8CBVW-VsTq6w8Q8faWWlizQVw6y1V5RGNZdRpr0Lz8epaZvc2QMlF7l7m7B961mI-ZlfigIGDUkSMuhUND4erg_XYk'); 
+    background-image: url('https://lh4.googleusercontent.com/proxy/BEDfYkT1RH2pXNdGuQ1QPcH5egHoUZGSjnX7S8CBVW-VsTq6w8Q8faWWlizQVw6y1V5RGNZdRpr0Lz8epaZvc2QMlF7l7m7B961mI-ZlfigIGDUkSMuhUND4erg_XYk');
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -95,7 +98,7 @@ header {
     transform: translateY(-50%);
 }
 
-.img-content{
+.img-content {
     position: relative;
     margin-bottom: -75px;
     z-index: 2;
@@ -127,7 +130,8 @@ header {
     margin-top: 20px;
 }
 
-.header-buttons .cont_bt, .header-buttons .github_bt {
+.header-buttons .cont_bt,
+.header-buttons .github_bt {
     padding: 10px 20px;
     margin: 0 10px;
     background-color: #ff8ba7;
@@ -137,20 +141,23 @@ header {
     cursor: pointer;
 }
 
-.header-buttons .cont_bt:hover, .header-buttons .github_bt:hover {
+.header-buttons .cont_bt:hover,
+.header-buttons .github_bt:hover {
     background-color: #ffc6c7;
 }
 
 .white-container {
     background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
     border-radius: 10px;
     display: inline-block;
     position: relative;
     z-index: 1;
     text-align: center;
-    
+    width: 60%;
+    height: 70%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
 }
 
 section {
@@ -169,6 +176,83 @@ section ul li {
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#hab {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hab-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Espacio entre los contenedores */
+    flex-wrap: wrap;
+}
+
+.habilidad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px; /* Márgenes entre los elementos */
+}
+
+.picture-container {
+    width: 200px; /* Tamaño del cuadrado */
+    height: 200px; /* Tamaño del cuadrado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ddd; /* Borde del cuadrado */
+    border-radius: 10px; /* Esquinas redondeadas */
+    background-color: #fff; /* Fondo del cuadrado */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra */
+    margin-bottom: 10px;
+}
+
+.picture {
+    width: 140px; /* Tamaño de la imagen */
+    height: 140px; /* Tamaño de la imagen */
+}
+
+.progress-bar {
+    width: 80%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress {
+    height: 15px;
+    background-color: #4caf50;
+    border-radius: 5px;
+}
+
+.python-progress {
+    width: 70%;
+}
+
+.java-progress {
+    width: 60%;
+}
+
+.vfp-progress {
+    width: 50%;
+}
+
+.sql-progress {
+    width: 40%;
+}
+
+.html-progress {
+    width: 60%;
+}
+
+.css-progress {
+    width: 60%;
 }
 
 footer {
