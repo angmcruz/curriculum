@@ -380,20 +380,22 @@ iframe {
 /* proyectos */
 
 .proyecto {
-    
     box-shadow: 1px 1px 7px #555;
-    width: 50%;
-    height: 60%;
-    margin: 0 auto;
+    width: 30%; 
+    margin: 10px auto; 
     background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
 }
-.proy-container {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 50px;
+
+.proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
+   
 }
+
 .proyecto a {
     display: block;
     width: 100%;
@@ -402,17 +404,18 @@ iframe {
 
 .proyecto-imagen {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5px;
+    height: 300px; 
+    object-fit: contain;
 }
 
 .proyecto h5 {
-    padding: 20px;
+    padding: 10px;
     background-color: #50383e;
     color: white;
+    
     text-align: center;
-
+    margin: 0;
+    font-size: 1em; 
 }
 
 /* referencias 
