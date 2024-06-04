@@ -269,7 +269,7 @@ header {
     width: 60%;
 }
 
-/* proyectos */
+
 
 /* experiencia */
 
@@ -377,17 +377,56 @@ iframe {
     border-bottom-right-radius: 5px;
 }
 
+/* proyectos */
+
+.proyecto {
+    
+    box-shadow: 1px 1px 7px #555;
+    width: 50%;
+    height: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+.proy-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    gap: 20px;
+}
+.proyecto a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.proyecto-imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.proyecto h5 {
+    padding: 20px;
+    background-color: #50383e;
+    color: white;
+    text-align: center;
+
+}
+
 /* referencias 
 */
 
-.contactos{
+.contactos, .proyectos{
     margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
-.contacto1, .contacto2, .contacto3, .contacto4 {
+.contacto{
     box-shadow: 1px 1px 4px #555;
     display: flex;
     align-items: center;
@@ -400,16 +439,7 @@ iframe {
     height: 150px;
 }
 
-.contacto2, .contacto4{
-    margin-left: 10px;
-
-}
-.contacto1, .contacto3{
-    margin-left: 450px;
-
-}
-
-.contacto-imagen {
+.contacto-imagen{
     width:100px;
     height: 80px;
     border-radius: 30%;
