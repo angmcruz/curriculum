@@ -188,6 +188,48 @@ header {
 }
 
 
+/* info y edu */ 
+
+
+
+.info-content{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+.info-content h4{
+    padding: 20px;
+    background-color:  #976c77;
+    color: white;
+    text-align: center;
+}
+
+.info-container{
+    box-shadow: 1px 1px 7px #555;
+    width: 30%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.edu-container{
+    box-shadow: 1px 1px 7px #555;
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+	
+}
+
+.titulo-edu, .titulo-info{
+
+
+	
+}
+
+
+
 /* habilidades */
 
 #hab {
