@@ -165,7 +165,10 @@ header {
 
 .white-container p {
     color: #33272a;
+    text-align: center;
+    margin-left: 10px;
 }
+
 
 /* secciones especf*/
 
