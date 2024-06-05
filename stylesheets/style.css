@@ -190,44 +190,73 @@ header {
 
 /* info y edu */ 
 
-
-
-.info-content{
+.info-content {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-
 }
-.info-content h4{
+
+.info-content h4 {
     padding: 20px;
-    background-color:  #976c77;
+    background-color: #976c77;
     color: white;
     text-align: center;
 }
 
-.info-container{
+.info-container, .edu-container {
     box-shadow: 1px 1px 7px #555;
-    width: 30%;
-    margin: 0 auto;
     background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
 }
 
-.edu-container{
-    box-shadow: 1px 1px 7px #555;
-    width: 60%;
-    margin: 0 auto;
-    background-color: white;
-	
+
+.edu-content {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.titulo-edu, .titulo-info{
-
-
-	
+.edu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
 }
 
+.edu-item img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.edu-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.titulo-edu, .titulo-info {
+    margin: 0;
+}
+
+.nombre {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.texto-video{
+    background-color: #976c77;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
 
 
 /* habilidades */
